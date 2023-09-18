@@ -2,7 +2,6 @@ const router = require('express').Router();
 const { Category, Product } = require('../../models');
 
 
-
 router.get('/', async (req, res) => {
   try {
     const categoryData = await Category.findAll({
@@ -62,7 +61,6 @@ router.delete('/:id', async (req, res) => {
   } catch (err) {
     res.status(500).json(err);
   }
-  
 });
 
 module.exports = router;
