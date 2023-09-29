@@ -4,7 +4,7 @@
 
 ## Description
 
-n/a
+A robust e-commerce backend designed to handle all the essential functionalities needed for an online marketplace. This project aims to provide a scalable and efficient solution for managing products, orders, and users, offering a solid foundation for any e-commerce application.
 
 ## Table of Contents
 
